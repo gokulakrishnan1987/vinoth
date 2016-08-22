@@ -1,0 +1,35 @@
+<!doctype html>
+   
+   <head>
+      <title>AngularJS First Application</title>          
+   </head>
+   
+   <body ng-app="vinothApp">
+      <h1>Sample Application</h1>
+      
+      <div>
+         <p>Enter your Name: <input type = "text" ng-model = "name"></p>
+         <p>Hello <span ng-bind = "name"></span>!</p>
+      </div>
+
+       <navbar></navbar>
+    <div ng-view=""></div>
+    <footer></footer>
+      
+     {{1+1}}
+
+      <!-- bower:js -->      
+      <script type="text/javascript" src="bower_components/angular/angular.js"></script>   
+      <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>   
+      <!-- endbower --> 
+      
+      <script type="text/javascript" src="bower_components/app.js"></script> 
+
+      <!-- injector:js -->
+      <script type="text/javascript" src="bower_components/app/signup/signup.controller.js"></script>
+      <!-- endinjector -->
+      
+   </body>
+</html>
+
+

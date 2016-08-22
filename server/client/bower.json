@@ -1,0 +1,22 @@
+{
+  "name": "vinoth",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "M.Gokulakrishnan <gokulakrishnan.m@ivymobility.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/gokulakrishnan1987/vinoth",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}
